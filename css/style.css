@@ -1,0 +1,227 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	box-sizing: border-box;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* -------ОБНУЛЕНИЕ СТИЛЕЙ -------- */
+
+body {
+	background-color: #999;
+}
+h2 {
+	font-size: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.section1 {
+	background-color: coral;
+	text-align: center;
+	margin: 0 0 50px 0;
+	padding: 50px 0;
+}
+
+.section1 > div {
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 20px;
+	
+}
+
+.block1 {
+	border: 10px solid transparent ;
+	
+}
+
+.block2 {
+	border: 10px solid green;
+}
+.block3 {
+	border: 10px dotted green;
+}
+.block4 {
+	border: 10px dashed green;
+}
+.block5 {
+	border: 10px double green;
+}
+.block6{
+	border: 10px groove green;
+}
+.block7 {
+	border: 10px ridge green;
+}
+.block8 {
+	border: 10px outset green;
+}
+
+.block9 {
+	border-top: 10px solid green;
+	border-bottom: 10px solid yellow;
+}
+.block10 {
+	border-right: 10px solid green;
+	border-left: 10px solid yellow;
+}
+.block11 {
+	border-right: 10px solid green;
+	border-bottom: 10px solid yellow;
+}
+.block12 {
+	border-top: 10px solid green;
+	border-left: 10px solid yellow;
+}
+.block13 {
+	border-radius: 20px;
+}
+.block14 {
+	border-radius: 50%;
+}
+.block15 {
+	border-radius: 0px 50px 30px 100px;
+}
+.block16 {
+	border-radius: 100% 0% 89% 11% / 0% 34% 66% 100%;
+}
+
+.section2 {
+	background-color: darkcyan;
+	text-align: center;
+	margin: 0 0 50px 0;
+	padding: 50px 0;
+	font-size: 0px;
+}
+.section2 > h2 {
+	margin: 0 0 20px 0;
+}
+.section2 > div {
+	width: 150px;
+	height: 150px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 0px;
+	font-size: 16px;
+}
+.section2 > p {
+	font-size: 16px;
+	margin: 20px 0 0 0;
+}
+.block-outline {
+	outline: 10px solid darkmagenta;
+	vertical-align: top;
+}
+
+.section3 > h2 {
+	margin: 0 0 50px 0;
+}
+
+.section3 {
+	background-color: coral;
+	text-align: center;
+	margin: 0 0 50px 0;
+	padding: 50px 0;
+}
+.section3 > div {
+	width: 160px;
+	height: 160px;
+	display: inline-block;
+	background-color: #fff;
+	margin: 0 50px;
+	border-radius: 50%;
+}
+
+.shadow1 {
+	box-shadow: -10px -10px 10px 0 darkmagenta,  10px 10px 10px 0 yellowgreen;
+}
+.shadow2 {
+	box-shadow: 0px 0px 10px 10px darkmagenta, 0px 0px 10px 20px yellowgreen;
+}
+.shadow3 {
+	box-shadow: -10px -10px 10px darkmagenta,
+	10px -10px 10px khaki,
+	10px 10px 10px yellowgreen,
+	-10px 10px 10px brown;
+}
+.shadow4 {
+	box-shadow: -10px -10px 0px 20px darkmagenta,
+	10px -10px 0px 20px khaki,
+	10px 10px 0px 20px yellowgreen,
+	-10px 10px 0px 20px brown;
+}
+.shadow5 {
+	box-shadow:  -27px 29px 0px -24px black, 31px -28px 0px -24px black, -33px -28px 0px -24px black, 31px 30px 0px -24px black;
+}
+.shadow6 {
+	box-shadow: inset -10px -10px 10px darkmagenta, inset 10px 10px 10px yellowgreen;
+}
+.shadow7 {
+	box-shadow: inset  -27px 29px 0px -24px black, inset  31px -28px 0px -24px black, inset -33px -28px 0px -24px black, inset 31px 30px 0px -24px black;
+}
+.opaciti-100 {
+	opacity: 1;
+}
+.opaciti-75 {
+	opacity: 0.75;
+}
+.opaciti-50 {
+	opacity: 0.5;
+}
+.opaciti-25 {
+	opacity: 0.25;
+}
+.opaciti-0 {
+	opacity: 0;
+}
+.visibility {
+	visibility: hidden;
+}
+
+.section1 .displaynone {
+	background-color: red;
+	display: none;
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson6</title>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<main>
+			<div class="section1">
+				<h2>Стили границ</h2>
+				<div class="block1">block1 transparent</div>
+				<div class="block2">block2 solid</div>
+				<div class="block3">block3 dotted </div>
+				<div class="block4">block4 dashed </div>
+				<div class="block5">block5 double </div>
+				<div class="block6">block6 groove</div>
+				<div class="block7">block7 ridge</div>
+				<div class="block8">block8 outset</div>
+			</div>
+			<div class="section1">
+				<h2> Cтороны границ</h2>
+				<p>Почему у меня выравнивание поехало? Ведь в обнуляющем стиле стоит box-sizing: border-box; ?</p>
+				<div class="block9">block9</div>
+				<div class="block10">block10</div>
+				<div class="block11">block11</div>
+				<div class="block12">block12</div>
+			</div>
+			<div class="section1">
+				<h2> Радиус границ</h2>
+				<div class="block13">20px</div>
+				<div class="block14">50%</div>
+				<div class="block15">разные значения</div>
+				<div class="block16">кастомка на генераторе</div>
+			</div>
+			<div class="section2">
+				<h2> Свойство outline</h2>
+				<div class="block-outline">block-outline</div>
+				<div class="block-outline">block-outline</div>
+				<div class="block-outline">block-outline</div>
+				<p>средний outline залезает под правый блок и от этого он (правый) кажется больше
+				</p>
+			</div>
+			<div class="section3">
+				<h2> Тень</h2>
+				<div class="shadow1">shadow1</div>
+				<div class="shadow2">shadow2</div>
+				<div class="shadow3">shadow3</div>
+				<div class="shadow4">shadow4</div>
+				<div class="shadow5">shadow5</div>
+				<div class="shadow6">shadow6</div>
+				<div class="shadow7">shadow7</div>
+			</div>
+			<div class="section1">
+				<h2> Opaciti, visibility, display: none </h2>
+				<div class="opaciti-100">100</div>
+				<div class="opaciti-75">75</div>
+				<div class="opaciti-50">50</div>
+				<div class="opaciti-25">25</div>
+				<div class="opaciti-0">25</div>
+				<div class="visibility">hidden</div>
+				<div class="displaynone">none</div>
+				<p>Забавно что я добавил селектор вида .section1 > div и в нем свойство display: inline-block;
+					УТОЧНЕНИЕ!!!! св-во display: none; оказалось менне приоритетным потому что селектор у него
+					.displaynone</p>
+				<p>Пришлось делать более точный селектор .section1 .displaynone</p>
+			</div>
+		</main>
+		<footer>
+			<h2>я футер</h2>
+		</footer>
+	</div>
+</body>
